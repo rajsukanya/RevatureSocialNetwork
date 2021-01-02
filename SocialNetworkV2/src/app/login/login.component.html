@@ -1,0 +1,21 @@
+<!-- Custom styles for this template -->
+<link href="login.component.css" rel="stylesheet">
+
+<body class="text-center">
+
+<form (ngSubmit)="onSubmit()"> <!--action="homepage.component.html"-->
+   <br/>
+   <div class="form-group">
+    <label>Username:</label><input type="username" class="form-control" id="username" required [(ngModel)]="user.username" name="username"/>
+   </div>
+    <br/>
+    <div class="form-group">
+    <label>Password:</label><input type="password" class="form-control" id="password" required [(ngModel)]="user.password" name="password"/>
+    </div>
+    <br/>
+    <button type="button" class="btn btn-primary" type="submit" value="login">Login</button>
+    
+</form>
+<div [hidden]="!submitted">
+    <h4>Unsuccessful Login </h4>
+</div>

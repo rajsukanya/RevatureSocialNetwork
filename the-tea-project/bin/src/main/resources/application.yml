@@ -1,0 +1,14 @@
+server:
+  port: 5555
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://djscubed.cqb6pzj3paxs.us-east-2.rds.amazonaws.com:5432/DJS3?currentSchema=public
+    username: rootadmin
+    password: coff33saves
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  
+    show-sql: true  
+    
+    

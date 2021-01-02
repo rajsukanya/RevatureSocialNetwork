@@ -1,0 +1,42 @@
+h2 {
+    padding-top: 15px;
+}
+
+th {
+    padding-top: 10px;
+}
+
+td {
+    padding-left: 5%;
+}
+
+.card{
+    justify-content: space-between;
+    align-content: center;
+    margin: 2% 0 2% 29%;
+}
+
+.viewer{
+    margin: 0 0 0 15%;
+}
+
+.card-text{
+    margin: 4% 0 0 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.btn{
+    background-color: #71BA42;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+  }
+  
